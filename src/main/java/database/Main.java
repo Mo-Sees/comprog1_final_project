@@ -1,4 +1,4 @@
-package net.sqlitetutorial;
+package database;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
