@@ -1,14 +1,15 @@
 package com.codewithlwrnsu;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
+import database.Database;
 
-        System.out.println( "Hello World!" );
+public class App
+{
+    public static void main( String[] args ) {
+
+        Database connect = new Database();
+        connect.connect();
+
+
+
     }
 }
